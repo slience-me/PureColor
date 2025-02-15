@@ -12,3 +12,5 @@
 ```
 rewrite /p/(.*?)/?$ /index.php?subdir&id=$1;
 ```
+
+具体的部署流程：见我的博客 https://slienceme.cn/2025/02/15/Nginx%E6%93%8D%E4%BD%9C%E5%90%88%E9%9B%86/#6-%E9%83%A8%E7%BD%B2php%E9%A1%B9%E7%9B%AE
