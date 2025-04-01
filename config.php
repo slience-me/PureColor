@@ -1,7 +1,7 @@
 <?php
-	$sql_host = "localhost";
-	$sql_username = "root";
-	$sql_password = "";
+	$sql_host = "172.18.0.3";
+	$sql_username = "purecolor";
+	$sql_password = "purecolor123";
 	$sql_db_name = "purecolor";
 	$conn = mysqli_connect($sql_host, $sql_username, $sql_password);
 	if(!$conn){
